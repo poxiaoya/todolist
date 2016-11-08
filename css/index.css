@@ -1,0 +1,25 @@
+body {margin:0;padding:0;font-size:16px;font-family:"微软雅黑";background:#999;}
+header {width:500px;height:50px;background:#000;margin:0 auto;margin-top:50px;border-radius:5px;}
+.header-box{width:450px;margin:0 auto}
+.zi{float:left;width:100px;line-height:50px;color:#fff;font-size:24px;cursor:pointer;}
+header input{float:right;width:60%;height:24px;margin-top:12px;text-indent:10px;border:none}
+input:focus{outline-width:0}
+
+.content{width:1100px;margin:0 auto;overflow:hidden;margin-top:30px;}
+.jx{width:500px;height:400px;background:#555;float:left ;border-radius:10px;}
+.wc{width:500px;height:400px;background:#555;float:right;border-radius:10px;}
+.wancheng{font-size:24px;font-weight:bold;line-height:50px;text-align:center;color:#fff;}
+span{top:2px;right:5px;display:inline-block;padding:2px 5px;height:20px;background:#000;line-height:22px;text-align:center;color:#fff;font-size:14px;margin-left:30px;border-radius:5px;}
+.list-box,ul{padding:0;list-style:none;}
+li input{position:absolute;top:2px;left:10px;width:22px;height:22px;cursor:pointer;background:#000;}
+p{margin: 0;}
+li p input{top:3px;left:40px;width:70%;height:20px;line-height:14px;text-indent:5px;font-size:14px;background:#ccc;}
+li{height:32px;line-height:32px;background: #fff;position:relative;margin-bottom: 10px;
+	padding:0 45px;border-radius:5px;width:350px;margin:5px auto;}
+.list-box li{cursor:move;}
+ul li{opacity: 0.8;}
+li a{position:absolute;top:6px;right:5px;display:inline-block;width:18px;height:18px;line-height:18px;text-align:center;color:#000;font-weight:bold;font-size:18px;cursor:pointer;text-decoration:none;}
+footer{color:#666;font-size:14px;text-align:center;margin-top:50px;}
+footer a{color:red;text-decoration:none;}
+@media screen and (max-device-width: 620px) {section{width:96%;padding:0 2%;}}
+@media screen and (min-width: 620px) {section{width:600px;padding:0 10px;}}
